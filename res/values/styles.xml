@@ -1,9 +1,12 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="AppTheme" parent="android:Theme.Light" />
-    <style name ="AnimationsForSplashScreen">
-        <item name ="android:windowEnterAnimation">@anim/appear</item>
-        <item name ="android:windowExitAnimation">@anim/disappear</item>
-    </style>
+    <style name="AppTheme" parent="android:Theme.Light" >
+        <item name="android:windowAnimationStyle">@style/SplashScreenAnimations</item>
+	</style>
+	<style name="Animations" parent="@android:Animation" />
+    	<style name="SplashScreenAnimations">
+       	 	<item name="android:windowEnterAnimation">@anim/appear</item>
+        	<item name="android:windowExitAnimation">@anim/disappear</item> 
+  	  </style>
 
 </resources>

@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splash2"
-    android:theme="@style/AnimationsForSplashScreen">
+    android:background="@drawable/splash2" >
 
     <ProgressBar
         android:id="@+id/progressBar1"
