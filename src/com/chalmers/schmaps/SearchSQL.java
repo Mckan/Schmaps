@@ -3,13 +3,11 @@ package com.chalmers.schmaps;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.database.*;
-import android.database.sqlite.*;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class TestDatabaseActivity {
+public class SearchSQL {
 
 	public static final String KEY_ROWID = "_id"; //raden i databasen
 	public static final String KEY_ROOM = "room_name";
