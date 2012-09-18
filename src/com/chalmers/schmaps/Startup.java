@@ -2,12 +2,16 @@ package com.chalmers.schmaps;
 
 import android.os.Bundle;
 import android.app.Activity;
+<<<<<<< HEAD
+import android.view.Menu;
+=======
 import android.content.Intent;
 import android.view.Menu;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+>>>>>>> upstream/master
 
 public class Startup extends Activity {
 
@@ -15,6 +19,8 @@ public class Startup extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startup);
+<<<<<<< HEAD
+=======
         
         //Use a thread for the splash screen to assign its lifetime.
 
@@ -34,6 +40,7 @@ public class Startup extends Activity {
         Animation fadeInAnimation = AnimationUtils.loadAnimation(this, R.anim.appear);
         myView.startAnimation(fadeInAnimation);
         timer.start();
+>>>>>>> upstream/master
     }
 
     @Override
@@ -41,6 +48,8 @@ public class Startup extends Activity {
         getMenuInflater().inflate(R.menu.activity_startup, menu);
         return true;
     }
+<<<<<<< HEAD
+=======
 
 	@Override
 	protected void onPause() {
@@ -49,4 +58,5 @@ public class Startup extends Activity {
 	}
     
 
+>>>>>>> upstream/master
 }
